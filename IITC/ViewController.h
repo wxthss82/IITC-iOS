@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <WKUIDelegate>
+@property (strong, nonatomic) WKWebView *webView;
 @end

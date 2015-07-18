@@ -8,14 +8,41 @@
 
 #import "AppDelegate.h"
 
+static AppDelegate * _sharedInstance;
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.js = [[NSMutableArray alloc] init];
+    _sharedInstance = self;
     // Override point for customization after application launch.
+    NSArray * addresses = @[@"http://iitc.jonatkins.com/release/total-conversion-build.user.js", @"http://iitc.jonatkins.com/release/plugins/player-tracker.user.js", @"http://iitc.jonatkins.com/release/plugins/portal-highlighter-high-level.user.js", @"http://iitc.jonatkins.com/release/plugins/portal-names.user.js", @"http://iitc.jonatkins.com/release/plugins/draw-tools.user.js"];
+    for (NSString * address in addresses) {
+        NSURL *url = [NSURL URLWithString:address];
+        NSError *error;
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
+        [request setHTTPMethod:@"GET"];
+    
+        [request setTimeoutInterval:5];
+        NSURLResponse *response;
+        NSData *data = [NSURLConnection sendSynchronousRequest:request
+                                             returningResponse:&response error:&error];
+        if (error) {
+            NSLog([error localizedDescription]);
+        } else {
+        [self.js addObject: [[NSString alloc] initWithData:data
+                              encoding:NSUTF8StringEncoding]];
+        }
+    }
+    
     return YES;
 }
-							
+
+
++ (instancetype)sharedInstance {
+    return _sharedInstance;
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

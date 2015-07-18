@@ -13,8 +13,6 @@
 		B4873CC318D950B40072A9B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4873CC118D950B40072A9B8 /* InfoPlist.strings */; };
 		B4873CC518D950B40072A9B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4873CC418D950B40072A9B8 /* main.m */; };
 		B4873CC918D950B40072A9B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4873CC818D950B40072A9B8 /* AppDelegate.m */; };
-		B4873CCC18D950B40072A9B8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4873CCA18D950B40072A9B8 /* Main_iPhone.storyboard */; };
-		B4873CCF18D950B40072A9B8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4873CCD18D950B40072A9B8 /* Main_iPad.storyboard */; };
 		B4873CD218D950B40072A9B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4873CD118D950B40072A9B8 /* ViewController.m */; };
 		B4873CD418D950B40072A9B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4873CD318D950B40072A9B8 /* Images.xcassets */; };
 		B4873CDB18D950B40072A9B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4873CDA18D950B40072A9B8 /* XCTest.framework */; };
@@ -22,6 +20,9 @@
 		B4873CDD18D950B40072A9B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4873CBC18D950B40072A9B8 /* UIKit.framework */; };
 		B4873CE518D950B40072A9B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4873CE318D950B40072A9B8 /* InfoPlist.strings */; };
 		B4873CE718D950B40072A9B8 /* IITCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4873CE618D950B40072A9B8 /* IITCTests.m */; };
+		B48C9EBA1B59B76900814F4B /* IITC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C9EB91B59B76900814F4B /* IITC.storyboard */; };
+		B48C9EBC1B59B77800814F4B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C9EBB1B59B77800814F4B /* Launch Screen.storyboard */; };
+		B48C9EBE1B59BB2E00814F4B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C9EBD1B59BB2E00814F4B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,6 @@
 		B4873CC618D950B40072A9B8 /* IITC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IITC-Prefix.pch"; sourceTree = "<group>"; };
 		B4873CC718D950B40072A9B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4873CC818D950B40072A9B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B4873CCB18D950B40072A9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		B4873CCE18D950B40072A9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		B4873CD018D950B40072A9B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B4873CD118D950B40072A9B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B4873CD318D950B40072A9B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,9 @@
 		B4873CE218D950B40072A9B8 /* IITCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IITCTests-Info.plist"; sourceTree = "<group>"; };
 		B4873CE418D950B40072A9B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4873CE618D950B40072A9B8 /* IITCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IITCTests.m; sourceTree = "<group>"; };
+		B48C9EB91B59B76900814F4B /* IITC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IITC.storyboard; sourceTree = "<group>"; };
+		B48C9EBB1B59B77800814F4B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B48C9EBD1B59BB2E00814F4B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48C9EBE1B59BB2E00814F4B /* WebKit.framework in Frameworks */,
 				B4873CBB18D950B40072A9B8 /* CoreGraphics.framework in Frameworks */,
 				B4873CBD18D950B40072A9B8 /* UIKit.framework in Frameworks */,
 				B4873CB918D950B40072A9B8 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		B4873CB718D950B40072A9B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B48C9EBD1B59BB2E00814F4B /* WebKit.framework */,
 				B4873CB818D950B40072A9B8 /* Foundation.framework */,
 				B4873CBA18D950B40072A9B8 /* CoreGraphics.framework */,
 				B4873CBC18D950B40072A9B8 /* UIKit.framework */,
@@ -116,12 +120,12 @@
 			children = (
 				B4873CC718D950B40072A9B8 /* AppDelegate.h */,
 				B4873CC818D950B40072A9B8 /* AppDelegate.m */,
-				B4873CCA18D950B40072A9B8 /* Main_iPhone.storyboard */,
-				B4873CCD18D950B40072A9B8 /* Main_iPad.storyboard */,
 				B4873CD018D950B40072A9B8 /* ViewController.h */,
 				B4873CD118D950B40072A9B8 /* ViewController.m */,
 				B4873CD318D950B40072A9B8 /* Images.xcassets */,
 				B4873CBF18D950B40072A9B8 /* Supporting Files */,
+				B48C9EB91B59B76900814F4B /* IITC.storyboard */,
+				B48C9EBB1B59B77800814F4B /* Launch Screen.storyboard */,
 			);
 			path = IITC;
 			sourceTree = "<group>";
@@ -231,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4873CCF18D950B40072A9B8 /* Main_iPad.storyboard in Resources */,
 				B4873CD418D950B40072A9B8 /* Images.xcassets in Resources */,
-				B4873CCC18D950B40072A9B8 /* Main_iPhone.storyboard in Resources */,
+				B48C9EBA1B59B76900814F4B /* IITC.storyboard in Resources */,
+				B48C9EBC1B59B77800814F4B /* Launch Screen.storyboard in Resources */,
 				B4873CC318D950B40072A9B8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +288,6 @@
 				B4873CC218D950B40072A9B8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B4873CCA18D950B40072A9B8 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4873CCB18D950B40072A9B8 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B4873CCD18D950B40072A9B8 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4873CCE18D950B40072A9B8 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		B4873CE318D950B40072A9B8 /* InfoPlist.strings */ = {
@@ -393,7 +381,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IITC/IITC-Prefix.pch";
 				INFOPLIST_FILE = "IITC/IITC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,7 +396,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IITC/IITC-Prefix.pch";
 				INFOPLIST_FILE = "IITC/IITC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +462,7 @@
 				B4873CEC18D950B40072A9B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4873CED18D950B40072A9B8 /* Build configuration list for PBXNativeTarget "IITCTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +471,7 @@
 				B4873CEF18D950B40072A9B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
